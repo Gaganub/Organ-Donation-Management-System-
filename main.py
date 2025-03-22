@@ -760,6 +760,7 @@ def update_organization_details():
 #     mycursor.execute(qry2)
 #     res = mycursor.fetchone()
 #     return render_template("show_detail.html",res = res,fields=fields,not_found = False)
+#     print("Exit")
 
 #----------------------------Logout-----------------------------------------
 @app.route("/logout", methods=['POST','GET'])
