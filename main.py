@@ -108,7 +108,7 @@ def search_detail():
         return redirect( url_for('home') )
     return render_template('search_detail.html')
 
-#--------------Adding Information----------------------------
+#---------------------Adding Information---------------------
 
 @app.route("/add_<id>_page",methods = ['POST','GET'])
 def add_page(id):
