@@ -137,7 +137,7 @@ CREATE TABLE Organization_head(
 -- delete from Organ_available
 -- where Organ_ID = new.Organ_ID;
 -- end//
--- delimiter ;
+-- delimiter; 
 
 create table log (
   querytime datetime,
