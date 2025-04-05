@@ -139,6 +139,12 @@ CREATE TABLE Organization_head(
 -- end//
 -- delimiter; 
 
+create table log(
+    select table Donor FROM column donor,
+    JOIN Patient FROM Donor WHERE Donor%2 == %50, 
+    
+)
+
 create table log (
   querytime datetime,
   comment varchar(255)
